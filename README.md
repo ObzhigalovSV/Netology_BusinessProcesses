@@ -8,4 +8,4 @@
 
 #### Полный текст домашнего задания находится [здесь](https://github.com/ObzhigalovSV/Netology_BusinessProcesses/blob/main/homework-16-10.md)
 #### База данных HomeWork_16_10.dt с выполненными заданиями находится [здесь](https://github.com/ObzhigalovSV/Netology_BusinessProcesses/blob/main/homework-16-10.dt)
-#### Файлы конфигурации находятся в папке [BusinessProcesses]
+#### Файлы конфигурации находятся в папке [BusinessProcesses](https://github.com/ObzhigalovSV/Netology_BusinessProcesses/tree/main/BusinessProcesses)
