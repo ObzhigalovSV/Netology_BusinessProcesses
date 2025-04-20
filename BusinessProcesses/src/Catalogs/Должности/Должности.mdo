@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4f9ea98-a6cc-4e39-97d0-0d4cbd14dde9">
+  <producedTypes>
+    <objectType typeId="7ad542cc-2b5c-4709-9f51-40cdcd8e999a" valueTypeId="0d12c301-a018-452b-af77-c65d2d05cd76"/>
+    <refType typeId="4cba19e9-496d-4725-a956-2d9ec92b4133" valueTypeId="84555842-d757-4f18-9b61-1766953a1849"/>
+    <selectionType typeId="d1ba5aee-e346-4936-a6a6-0d021349b6e2" valueTypeId="4af98fd9-b416-4c52-b7f9-b4bf0471eb6f"/>
+    <listType typeId="817c8222-9b34-4081-bf69-35eed16ae506" valueTypeId="4fd9d599-d204-4dcd-a170-a4a0d2284387"/>
+    <managerType typeId="4f1884eb-bfdd-40ba-9cdd-abd2de7a290c" valueTypeId="4d7ed23b-a572-4d7c-ad49-36cbe51ec3aa"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Должности.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Должности.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Должность</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="9660640b-3d41-48ee-aae7-6b492548b38b">
+      <name>ВедущийСпециалист</name>
+      <description>Ведущий специалист</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+    </items>
+    <items id="01aee3ec-8c92-4566-a3bd-1d4436255cdb">
+      <name>НачальникОтдела</name>
+      <description>Начальник отдела</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+    <items id="164297de-e5b4-4a67-a1fc-2631211c1638">
+      <name>РуководительПроекта</name>
+      <description>Руководитель проекта</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+    </items>
+    <items id="dfd33fe5-0bbc-4400-8f4c-1b2663bbbc96">
+      <name>Специалист</name>
+      <description>Специалист</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

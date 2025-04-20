@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:BusinessProcess xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8f99e576-f446-496e-b191-455efe64c461">
+  <producedTypes>
+    <objectType typeId="2f8f7930-14a6-4cd4-98ae-d12e65123c83" valueTypeId="273948ad-c38d-4530-b7de-a63c13aa90e6"/>
+    <refType typeId="ca3fed98-c633-4355-beae-afabc5a5806c" valueTypeId="a1bad051-657c-4b28-8e20-becd3cdc9623"/>
+    <selectionType typeId="aa5b1517-64b1-4e94-8a81-09c43c563701" valueTypeId="7471fbea-83f4-4364-9605-dd9265909bb0"/>
+    <listType typeId="b22c77a4-2469-404b-830f-6487e1744585" valueTypeId="dc16e673-54a8-4487-b1a9-29cfe87994e9"/>
+    <managerType typeId="0090adc7-8cea-4695-a663-12f063ccf3c0" valueTypeId="59a04e9a-34a0-49dc-8a26-996de6b9c890"/>
+    <routePointRef typeId="a1066cb2-c7fc-4dbe-a265-dd0df2251383" valueTypeId="a507a4a1-b174-4145-a803-c548fd8868ac"/>
+  </producedTypes>
+  <name>ВнедрениеПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Внедрение проекта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>BusinessProcess.ВнедрениеПроекта.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <editType>InDialog</editType>
+  <defaultObjectForm>BusinessProcess.ВнедрениеПроекта.Form.ФормаБизнесПроцесса</defaultObjectForm>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <task>Task.ЗадачаСотрудника</task>
+  <createTaskInPrivilegedMode>true</createTaskInPrivilegedMode>
+  <attributes uuid="258be77d-c8a3-4951-8ff6-aee5f15fdce9">
+    <name>СложныйПроект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сложный проект</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="64c47cfd-e7b8-4318-8fab-e67d029c80fd">
+    <name>ФормаБизнесПроцесса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма бизнес процесса</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:BusinessProcess>
