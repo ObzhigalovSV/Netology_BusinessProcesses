@@ -1,1 +1,11 @@
-# Netology_BusinessProcesses
+# Домашнее задание к занятию «Решение задач по бизнес-процессам.»
+
+## Цель задания
+
+Научиться самостоятельно решать задачи оперативного учета из экзамена "1С:Специалист по Платформе".
+
+Эта практика позволит вам определить свои сильные и слабые стороны в решении задач оперативного учета и пригодятся для самостоятельной подготовки к экзамену.
+
+#### Полный текст домашнего задания находится [здесь](https://github.com/ObzhigalovSV/Netology_Accounting/blob/main/homework-16-9.md)
+#### База данных HomeWork_16_9.dt с выполненными заданиями находится [здесь](https://github.com/ObzhigalovSV/Netology_Accounting/blob/main/homework-16-9.dt)
+#### Файлы конфигурации находятся в папке [Accounting](https://github.com/ObzhigalovSV/Netology_Accounting/tree/main/Accounting)
